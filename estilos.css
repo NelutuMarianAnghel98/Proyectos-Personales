@@ -1,0 +1,341 @@
+/************************** ESTILOS GENERALES *************************/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url(/images/empresa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: #333;
+    color: #e7e4e4;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+#contenedor-noticias .noticia {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+/************************** ESTILOS IMAGENES *************************/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#galeria {
+    padding: 2rem;
+    text-align: center;
+}
+
+.galeria-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.galeria-contenedor a img {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+    margin-left: 30px;
+}
+
+.galeria-contenedor a img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+/************************** ESTILOS FORMULARIO *************************/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+fieldset {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: -0.8rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.7rem;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+/************************** ESTILOS PRESUPUESTO *************************/
+#presupuestoFinal {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+fieldset {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+button {
+    padding: 0.7rem;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background: #0056b3;
+}
+.titulo2{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+
+/************************** ESTILOS MAPA DINAMICO *************************/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#datosContacto {
+    margin: 20px;
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#mapa {
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+/************************** ESTILOS MEDIAQUERY *************************/
+/* Aseguramos que todo el cuerpo ocupe el 100% de la altura de la pantalla */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Contenedor principal con Flexbox */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Esto asegura que el footer se quede abajo */
+}
+
+/* El contenido principal ocupa todo el espacio restante */
+main {
+    flex: 1;
+}
+
+/* Footer al fondo */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Media Queries para adaptarse a pantallas más pequeñas */
+@media (max-width: 768px) {
+    footer {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+
