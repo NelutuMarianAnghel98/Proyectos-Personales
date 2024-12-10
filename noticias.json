@@ -1,0 +1,14 @@
+[
+    {
+        "titulo": "Nueva función en nuestro sitio web",
+        "contenido": "Hemos añadido una nueva sección para ayudarte a gestionar tus proyectos."
+    },
+    {
+        "titulo": "Promoción de lanzamiento",
+        "contenido": "Descuentos especiales en nuestros servicios por tiempo limitado."
+    },
+    {
+        "titulo": "Actualización de seguridad",
+        "contenido": "Hemos reforzado la seguridad en nuestras plataformas para proteger mejor tus datos."
+    }
+]
